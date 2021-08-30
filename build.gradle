@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.sisipapa.study'
-version = '1.1'
+version = '1.2'
 sourceCompatibility = '11'
 
 repositories {
@@ -19,8 +19,8 @@ dependencies {
 }
 
 docker {
-    name "p8080:${project.version}"
-    tag 'DockerHub', "coolguy239/p8080:${project.version}"
+    name "p8000:${project.version}"
+    tag 'DockerHub', "coolguy239/p8000:${project.version}"
     dockerfile file('Dockerfile')
     files tasks.bootJar.outputs.files
     buildArgs(['JAR_FILE': tasks.bootJar.outputs.files.singleFile.name])
