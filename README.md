@@ -92,16 +92,16 @@ public class CommonController {
 ### gradle > docker > dockerPushDockerHub 더블클릭 
 <img src="https://sisipapa.github.io/assets/images/posts/docker-push1.PNG" >  
 ```shell
-> Task :compileJava
-> Task :processResources
-> Task :classes
-> Task :bootJarMainClassName
-> Task :bootJar
-> Task :dockerClean UP-TO-DATE
-> Task :dockerPrepare
-> Task :docker
-> Task :dockerTagDockerHub
-> Task :dockerPushDockerHub
+Task :compileJava
+Task :processResources
+Task :classes
+Task :bootJarMainClassName
+Task :bootJar
+Task :dockerClean UP-TO-DATE
+Task :dockerPrepare
+Task :docker
+Task :dockerTagDockerHub
+Task :dockerPushDockerHub
 The push refers to repository [docker.io/coolguy239/p8000]
 e7b55fef7c08: Preparing
 b62ce2e20fb6: Preparing
