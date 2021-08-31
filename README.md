@@ -114,3 +114,7 @@ LOG 확인 및 브라우저 확인 가능
 [gradle docker image 생성하기: spring boot](https://psawesome.tistory.com/78)  
 [[4] Spring Boot 에서 gradle task 설정하기](https://velog.io/@guswns3371/4-Spring-Boot-%EC%97%90%EC%84%9C-gradle-task-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)    
 [Spring Boot, Dockerfile로 이미지 생성, 배포하기](https://umanking.github.io/2021/07/11/spring-boot-docker-starter/)  
+
+  
+  
+[SISIPAPA 노트연결](https://sisipapa.github.io/blog/2021/08/31/Intellij-Gradle-Docker-Image/)
